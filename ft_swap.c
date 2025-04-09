@@ -8,13 +8,3 @@ void ft_swap(int *a, int *b)
     *a = *b;
     *b = tmp;
 }
-
-int main(void)
-{
-    int a, b;
-    a = 5;
-    b = 3;
-
-    ft_swap(&a, &b);
-    printf("%d %d", a, b);
-}
